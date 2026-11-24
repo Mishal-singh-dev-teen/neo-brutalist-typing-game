@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Type Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="feedback-msg">Press Enter to submit your sentence!</div>
+    
+    <div class="tester-cont">
+        <h2>Type the given sentence</h2>
+        <span>(Please click enter on keyboard when complete the sentence)</span>
+        <div class="stats">
+            <div class="stat-box">⚡ WPM: <b id="wpm">0</b></div>
+            <div class="stat-box">🎯 Accuracy: <b id="accuracy">100%</b></div>
+        </div>
+        <p class="textPara">
+            <strong class="textToType"></strong>
+        </p>
+        <textarea id="typeArea" placeholder="Start typing here..." class="textarea"></textarea>
+        <span class="time"><b id="number">60 sec</b></span>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
